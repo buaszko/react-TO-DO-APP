@@ -1,12 +1,15 @@
+import Hero from './components/SearchForm/SearchForm';
+import SearchForm from './components/Hero/Hero';
+import List from './components/List/List.js';
+
 const App = () => {
   return (
     <div>
       <Hero />
       <SearchForm />
+      <List />
     </div>
   );
 };
 
-import Hero from './Hero/Hero'
-import SearchForm from './SearchForm/SearchForm'
 export default App;
