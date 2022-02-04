@@ -1,6 +1,9 @@
-import styles from './TextInput.module.scss';
+import slyles from './TextInput.module.scss';
 
-const TextInput = props => {
-    return <input className={styles.input} placeholder={props.placeholder} type="text" />
+const TextInput = (props) => {
+  return (
+    <input className={slyles.input} value={props.value} onChange={props.onChange} placeholder={props.placeholder} type="text" />
+  )
 }
+
 export default TextInput;
