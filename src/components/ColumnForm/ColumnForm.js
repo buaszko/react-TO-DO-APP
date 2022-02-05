@@ -8,7 +8,7 @@ const ColumnForm = props => {
   const [icon, setIcon] = useState('');
   const handleSubmit = e =>{ 
     e.preventDefault();
-    props.action({ title: title, icon: icon})
+    props.action({title, icon})
     setTitle('');
     setIcon('');
   }

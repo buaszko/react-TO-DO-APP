@@ -4,11 +4,10 @@ import TextInput from "../TextInput/TextInput";
 import styles from "./CardForm.module.scss";
 
 const CardForm = props =>{
-  // console.log(props);
   const [title,setTitle] = useState('')
   const handleSubmit = e =>{
     e.preventDefault();
-    props.action({title: title}, props.columnId)
+    props.action({title}, props.columnId)
     setTitle('');
   }
   return(
