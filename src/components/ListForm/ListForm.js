@@ -8,8 +8,8 @@ import Button from '../Button/Button';
 const ListForm = () => {
   const dispatch = useDispatch();
 
-  const [title, setTitle] = useState('')
-  const [description, setDescription] = useState('')
+  const [title, setTitle] = useState('');
+  const [description, setDescription] = useState('');
 
   const handleSubmit = e => {
     e.preventDefault();

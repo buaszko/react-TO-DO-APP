@@ -15,14 +15,14 @@ const Favorite = () => {
 
   return (
 
-    <>
+    <div>
       <PageTitle>Favorite</PageTitle>
         <article className={styles.column}>
         <ul className={styles.cards}>
           {cards.map(card => <Card key={card.id} id={card.id} title={card.title} isFavorite={card.isFavorite}/>)}
         </ul>
         </article>
-    </>
+    </div>
   );
 };
 
