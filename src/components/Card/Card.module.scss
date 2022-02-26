@@ -24,9 +24,21 @@
     transition: $transition;
 
     &:hover {
-        color: rgb(97, 4, 4);
+        color: goldenrod;
     }
     &.isFavorite {
       color: $color-warning;
     }
-} 
+}
+
+.buttonRemove {
+    cursor: pointer;
+    border: none;
+    background-color: white;
+
+}
+.icon{
+  margin: 0px;
+  padding: 0px;
+
+}

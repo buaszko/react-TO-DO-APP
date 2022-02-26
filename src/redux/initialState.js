@@ -21,7 +21,7 @@ const initialState = {
     {
       id: '4',
       listId: '2',
-      title: 'Mudic',
+      title: 'Music',
       icon: 'music',
     }
   ],
