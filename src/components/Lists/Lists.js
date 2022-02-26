@@ -1,8 +1,8 @@
-import { useSelector } from "react-redux"
-import { getAllLists } from "../../redux/store"
-import styles from './Lists.module.scss'
-import { Link } from "react-router-dom"
-import ListForm from "../ListForm/ListForm"
+import { useSelector } from 'react-redux';
+import { getAllLists } from '../../redux/store';
+import styles from './Lists.module.scss';
+import { Link } from 'react-router-dom';
+import ListForm from '../ListForm/ListForm';
 
 const Lists = () => {
 
