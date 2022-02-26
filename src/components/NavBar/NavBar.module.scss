@@ -16,15 +16,22 @@
   color: white;
   font-size: 30px;
 }
+
 ul{
   list-style-type: none;
 }
+
 li{
   display: inline;
   padding: 0 15px;
   font-size: 16px;
 }
+
 a{
   color:white;
   text-decoration: none;
+}
+
+.linkActive{
+  color: $color-warning;
 }

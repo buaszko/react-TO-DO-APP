@@ -6,14 +6,14 @@ import TextInput from '../TextInput/TextInput';
 import styles from './CardForm.module.scss';
 
 const CardForm = props =>{
-  // console.log(props);
+
   const columnId = props.columnId;
   const dispatch = useDispatch();
 
   const [title,setTitle] = useState('')
   const handleSubmit = e =>{
     e.preventDefault();
-    dispatch( addCard({title, columnId}) )
+    dispatch( addCard({title, columnId}))
     setTitle('');
   }
   return(
