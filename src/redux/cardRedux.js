@@ -7,7 +7,7 @@ const TOGGLE_CARD_FAVORITE = createActionName('TOGGLE_CARD_FAVORITE');
 const REMOVE_CARD = createActionName('REMOVE_CARD');
 
 export const getFilteredCards = ({cards, searchString}, columnId) => cards.filter(card => card.columnId === columnId && strContains(card.title, searchString.searchString));
-export const getFilteredIsFavoriteCards = ({ cards }) => cards.filter(card => card.isFavorite === true);
+export const getFilteredIsFavoriteCards = ({ cards }) => cards.filter(card => card.isFavorite);
 
 export const addCard = payload => ({ type: ADD_CARD, payload });
 export const toggleCardFavorite = payload => ({ type: TOGGLE_CARD_FAVORITE, payload });
